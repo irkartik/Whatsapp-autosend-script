@@ -11,7 +11,7 @@ string = input('Enter your message: ')
 
 n = int(input('Enter number of times you want your message to be sent: '))
 
-driver = webdriver.Chrome('/home/raj/Desktop/autosend-whatsapp/chromedriver')
+driver = webdriver.Chrome('<global path of Chrome Driver>')
  
 driver.get("https://web.whatsapp.com/")
 wait = WebDriverWait(driver, 600)
