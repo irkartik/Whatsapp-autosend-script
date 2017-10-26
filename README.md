@@ -14,16 +14,16 @@ Do star the repo if you think it worth it.
 5. Selenium
 
 # Steps to run in your local machine
-1. Firstly, clone the repository using the git shell 
+1. Firstly, clone the repository using the git shell <br>
 <code>$ https://github.com/rajujha373/Whatsapp-autosend-script.git</code> 
-2. Goto the base directory of the project 
+2. Goto the base directory of the project <br>
 <code>$ cd OurNoticeBoardv2.0</code>  
-3. Create a virtual environment and activate it. 
-<code> $ virtualenv venv </code>
+3. Create a virtual environment and activate it.<br> 
+<code> $ virtualenv venv </code><br>
 <code> $ source venv/bin/activate </code>
-4. Install the requirements for the project 
+4. Install the requirements for the project<br> 
 <code> $ pip install -r requirements.txt </code>
-5. Run the script
+5. Run the script<br>
 <code> $ python3 script.py</code>
 6. Enter the details asked (user's name, message to be sent, number of messages to be sent)
 7. Voila!
