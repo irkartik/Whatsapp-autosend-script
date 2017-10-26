@@ -15,7 +15,7 @@ Do star the repo if you think it worth it.
 
 # Steps to run in your local machine
 1. Firstly, clone the repository using the git shell <br>
-<code>$ https://github.com/rajujha373/Whatsapp-autosend-script.git</code> 
+<code>$ git clone https://github.com/rajujha373/Whatsapp-autosend-script.git</code> 
 2. Goto the base directory of the project <br>
 <code>$ cd Whatsapp-autosend-script</code>  
 3. Create a virtual environment and activate it.<br> 
