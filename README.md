@@ -10,8 +10,8 @@ Do star the repo if you think it worth it.
 1. Chrome/Chromium Browser (https://www.google.com/chrome/browser)
 2. Chrome WebDriver (https://chromedriver.storage.googleapis.com/index.html?path=2.33/)
 3. Python3 (https://www.python.org/downloads/)
-4. Virtualenv
-5. Selenium
+4. Virtualenv (<code>$ pip3 install virtualenv</code>)
+5. Selenium (<code>$ pip3 install selenium</code>)
 
 # Steps to run in your local machine
 1. Firstly, clone the repository using the git shell <br>
