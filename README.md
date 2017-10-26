@@ -24,7 +24,7 @@ Do star the repo if you think it worth it.
 4. Install the requirements for the project<br> 
 <code> $ pip install -r requirements.txt </code>
 5. Run the script<br>
-<code> $ python3 script.py</code>
+<code> $ python3 autosend.py</code>
 6. Enter the details asked (user's name, message to be sent, number of messages to be sent)
 7. Voila!
 
