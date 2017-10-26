@@ -17,14 +17,14 @@ Do star the repo if you think it worth it.
 1. Firstly, clone the repository using the git shell <br>
 <code>$ https://github.com/rajujha373/Whatsapp-autosend-script.git</code> 
 2. Goto the base directory of the project <br>
-<code>$ cd OurNoticeBoardv2.0</code>  
+<code>$ cd Whatsapp-autosend-script</code>  
 3. Create a virtual environment and activate it.<br> 
 <code> $ virtualenv venv </code><br>
 <code> $ source venv/bin/activate </code>
 4. Install the requirements for the project<br> 
 <code> $ pip install -r requirements.txt </code>
 6. Download the ChromeWebdriver and extract into the directory.
-7. In the file "autosend.py" replace "<global path of chromedriver>" with the absolute path of the downloaded Chrome Webdriver.
+7. In the file "autosend.py" replace "{global path of chromedriver}" with the absolute path of the downloaded Chrome Webdriver.
 5. Run the script<br>
 <code> $ python3 autosend.py</code>
 6. Enter the details asked (user's name, message to be sent, number of messages to be sent)
