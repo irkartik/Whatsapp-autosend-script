@@ -5,13 +5,13 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
-target = input('Enter name of person/group you want to send message to:')
+target = str(input('Enter name of person/group you want to send message to:'))
 
-string = input('Enter your message: ')
+string = str(input('Enter your message: '))
 
 n = int(input('Enter number of times you want your message to be sent: '))
 
-driver = webdriver.Chrome('{global path of chromedriver}')
+driver = webdriver.Chrome('/home/raj/Desktop/blahblahblah/Whatsapp-autosend-script/chromedriver')
  
 driver.get("https://web.whatsapp.com/")
 wait = WebDriverWait(driver, 600)
@@ -22,7 +22,7 @@ person_title = wait.until(EC.presence_of_element_located((
     By.XPATH, x_arg)))
 print(person_title)
 person_title.click()
-inp_xpath = '//div[@class="pluggable-input-body copyable-text selectable-text"][@dir="auto"][@data-tab="1"]'
+inp_xpath = '//div[@class="_2S1VP copyable-text selectable-text"]'
 input_box = wait.until(EC.presence_of_element_located((
     By.XPATH, inp_xpath)))
 
